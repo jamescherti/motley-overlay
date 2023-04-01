@@ -6,7 +6,6 @@
 
 ## List of Ebuilds in motley-overlay
 
-- app-misc/asciinema-agg
 - app-text/OCRmyPDF
 - dev-python/schema
 - media-plugins/nvidia-vaapi-driver
