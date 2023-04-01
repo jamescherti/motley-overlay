@@ -1,4 +1,4 @@
-# The Motley Overlay (Gentoo repository)
+# The Motley Overlay (Gentoo Overlay)
 
 The **motley-overlay** contains a collection of ebuilds maintained by [James Cherti](https://www.jamescherti.com) that are not currently available in the official Gentoo repository.
 
@@ -32,6 +32,8 @@ emerge --sync motley-overlay
 ```
 
 ## Contribute
+
+While most of the ebuilds in this overlay are maintained by James Cherti, some of them are based on the work of other authors, including Andrew Udvare and various contributors from the Gentoo community.
 
 We welcome contributions to this overlay from the Gentoo community. If you have any ebuilds that you would like to contribute or issues to report, please do so through our GitHub repository.
 
