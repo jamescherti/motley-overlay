@@ -8,10 +8,10 @@ If you are not familiar with Gentoo overlays, they are a way to extend the Porta
 
 ## List of Ebuilds
 
-- app-text/OCRmyPDF
-- dev-python/schema
-- media-plugins/nvidia-vaapi-driver
-- net-print/brother-ql1110nwb-bin
+- **app-text/OCRmyPDF**: A tool that adds an OCR text layer to scanned PDF files
+- **dev-python/schema**: Python module to validate and convert data structures
+- **media-plugins/nvidia-vaapi-driver**: A VA-API implemention using NVIDIA's NVDEC
+- **net-print/brother-ql1110nwb-bin**: Printer driver for the Brother QL-1110NWB
 
 ## Installation
 
