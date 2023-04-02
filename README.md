@@ -6,13 +6,6 @@ All ebuilds in this overlay are provided on an as-is basis. Please note that whi
 
 If you are not familiar with Gentoo overlays, they are a way to extend the Portage package management system by providing additional ebuilds that are not included in the main repository. The Motley Overlay offers a convenient way for Gentoo users to access and install software that might not be available in the main Gentoo tree.
 
-## List of Ebuilds
-
-- **app-text/OCRmyPDF**: A tool that adds an OCR text layer to scanned PDF files
-- **dev-python/schema**: Python module to validate and convert data structures
-- **media-plugins/nvidia-vaapi-driver**: A VA-API implementation using NVIDIA's NVDEC
-- **net-print/brother-ql1110nwb-bin**: Printer driver for the Brother QL-1110NWB
-
 ## Installation
 
 Create the file `/etc/portage/repos.conf/motley-overlay.conf` containing:
