@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{9..10} )
 
 inherit bash-completion-r1 distutils-r1 optfeature
 
@@ -15,7 +15,6 @@ SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="CC-BY-SA-2.5 CC-BY-SA-4.0 MIT MPL-2.0 ZLIB"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="png"
 
 RDEPEND="
 	>=app-text/ghostscript-gpl-9.50
@@ -25,14 +24,14 @@ RDEPEND="
 	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20[${PYTHON_USEDEP}]
 	>dev-python/pikepdf-5.0.1[${PYTHON_USEDEP}]
-	>=dev-python/pillow-8.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.2.0[lcms,${PYTHON_USEDEP}]
 	>=dev-python/pluggy-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/reportlab-3.5.66[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4[${PYTHON_USEDEP}]
 	>=media-gfx/img2pdf-0.3.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]
+	dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	test? (
 		>=app-text/unpaper-6.1
 		dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}]
@@ -46,7 +45,7 @@ distutils_enable_tests pytest
 
 distutils_enable_sphinx docs \
 	dev-python/sphinx-issues \
-	dev-python/sphinx_rtd_theme
+	dev-python/sphinx-rtd-theme
 
 export SETUPTOOLS_SCM_PRETEND_VERSION=${PV}
 
@@ -66,5 +65,5 @@ src_install() {
 pkg_postinst() {
 	optfeature "JBIG2 optimization support" media-libs/jbig2enc
 	optfeature "image cleaning support" app-text/unpaper
-	use png && optfeature "PNG optimization support" media-gfx/pngquant
+	optfeature "PNG optimization support" media-gfx/pngquant
 }

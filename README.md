@@ -10,7 +10,7 @@ If you are not familiar with Gentoo overlays, they are a way to extend the Porta
 
 - **app-text/OCRmyPDF**: A tool that adds an OCR text layer to scanned PDF files
 - **dev-python/schema**: Python module to validate and convert data structures
-- **media-plugins/nvidia-vaapi-driver**: A VA-API implemention using NVIDIA's NVDEC
+- **media-plugins/nvidia-vaapi-driver**: A VA-API implementation using NVIDIA's NVDEC
 - **net-print/brother-ql1110nwb-bin**: Printer driver for the Brother QL-1110NWB
 
 ## Installation
@@ -33,7 +33,7 @@ emerge --sync motley-overlay
 
 ## Contribute
 
-While most of the ebuilds in this overlay are maintained by James Cherti, some of them are based on the work of other authors, including Andrew Udvare and various contributors from the Gentoo community.
+While most of the ebuilds in this overlay are maintained by James Cherti, some of them are based on the work of other authors, including Andrew Udvare, Alarig Le Lay, James Beddek, and various contributors from the Gentoo community.
 
 We welcome contributions to this overlay from the Gentoo community. If you have any ebuilds that you would like to contribute or issues to report, please do so through our GitHub repository.
 
