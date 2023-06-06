@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>60946298+jamescherti@users.noreply.github.com</email>
+		<name>James Cherti</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">ikatyang/tree-sitter-yaml</remote-id>
+	</upstream>
+</pkgmetadata>
