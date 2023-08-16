@@ -27,11 +27,6 @@ BDEPEND="
 	test? ( app-misc/jq )
 "
 
-PATCHES=(
-	"${FILESDIR}/${PN}-0.5.3-t_list.patch"
-	"${FILESDIR}/${PN}-t_interactive.patch"
-)
-
 src_prepare() {
 	if use darkterm; then
 		sed -i 's/;34m/;36m/' src/libwrapper.cpp || die
