@@ -14,6 +14,16 @@ included in the main repository. The Motley Overlay offers a convenient way for
 Gentoo users to access and install software that might not be available in the
 main Gentoo tree.
 
+## Packages
+
+- app-text/OCRmyPDF 14.0.1-r4
+- app-text/proselint 0.13.0
+- app-text/sdcv 0.5.5
+- dev-libs/tree-sitter-yaml 0.5.0
+- dev-python/schema 0.7.5
+- media-plugins/nvidia-vaapi-driver 0.0.10
+- net-print/brother-ql1110nwb-bin 2.1.4-r1
+
 ## Installation
 
 Create the file `/etc/portage/repos.conf/motley-overlay.conf` containing:
