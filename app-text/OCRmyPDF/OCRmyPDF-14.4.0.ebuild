@@ -29,6 +29,7 @@ RDEPEND="
 	>=dev-python/reportlab-3.5.66[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4[${PYTHON_USEDEP}]
 	>=media-gfx/img2pdf-0.3.0[${PYTHON_USEDEP}]
+        >=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]

@@ -16,7 +16,7 @@ main Gentoo tree.
 
 ## Packages
 
-- app-text/OCRmyPDF 14.0.1-r4
+- app-text/OCRmyPDF 14.4.0
 - app-text/proselint 0.13.0
 - app-text/sdcv 0.5.5
 - dev-libs/tree-sitter-yaml 0.5.0
