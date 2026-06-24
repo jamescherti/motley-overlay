@@ -10,10 +10,7 @@ If you are not familiar with Gentoo overlays, they are a way to extend the Porta
 
 - app-text/OCRmyPDF 14.4.0
 - app-text/proselint 0.13.0
-- app-text/sdcv 0.5.5
 - dev-libs/tree-sitter-yaml 0.5.0
-- dev-python/schema 0.7.5
-- media-plugins/nvidia-vaapi-driver 0.0.10
 - net-print/brother-ql1110nwb-bin 2.1.4-r1
 
 ## Installation
