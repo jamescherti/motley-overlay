@@ -12,6 +12,7 @@ If you are not familiar with Gentoo overlays, they are a way to extend the Porta
 - app-text/proselint 0.13.0
 - dev-libs/tree-sitter-yaml 0.5.0
 - net-print/brother-ql1110nwb-bin 2.1.4-r1
+- net-print/brother-genml1-bin
 
 ## Installation
 
